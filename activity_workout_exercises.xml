@@ -1,0 +1,84 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Pushups Button -->
+    <Button
+        android:id="@+id/pushupsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push-Ups"/>
+
+    <!-- Bench Press Button -->
+    <Button
+        android:id="@+id/benchpressButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bench Press"/>
+
+    <!-- Squats Button -->
+    <Button
+        android:id="@+id/squatsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Squats"/>
+
+    <!-- Deadlifts Button -->
+    <Button
+        android:id="@+id/deadliftsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deadlifts"/>
+
+    <!-- Lunges Button -->
+    <Button
+        android:id="@+id/lungesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lunges"/>
+
+    <!-- Planks Button -->
+    <Button
+        android:id="@+id/planksButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Planks"/>
+
+    <!-- Overhead Press Button -->
+    <Button
+        android:id="@+id/overheadPressButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Overhead Press"/>
+
+    <!-- Pull-Ups Button -->
+    <Button
+        android:id="@+id/pullupsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pull-Ups"/>
+
+    <!-- Bicep Curls Button -->
+    <Button
+        android:id="@+id/bicepCurlsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bicep Curls"/>
+
+    <!-- Tricep Dips Button -->
+    <Button
+        android:id="@+id/tricepDipsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tricep Dips"/>
+
+    <!-- Fragment Container -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To \n Gym Tracker"
+        android:textSize="40dp"
+        android:textColor="#673AB7"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/enterDataButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Workout Data"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/viewDataButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Workout Data"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/viewExercisesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Workout Exercises"/>
+</LinearLayout>

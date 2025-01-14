@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gymtrackerapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sportbg"
+        android:label="Gym Tracker"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GymTracker">
+
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".WelcomeActivity" />
+
+        <activity android:name=".WorkoutEntryActivity" />
+
+        <activity android:name=".ViewWorkoutActivity" />
+
+        <activity android:name=".WorkoutExercisesActivity" />
+
+        <meta-data
+            android:name="android.windowSplashScreenBackground"
+            android:resource="@color/white" />
+
+    </application>
+
+</manifest>
